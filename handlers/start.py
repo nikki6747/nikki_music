@@ -14,38 +14,38 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  Hey {message.from_user.mention()} 🤍! 
 
-     This is [{bn}](t.me/{bu}), a super fast vc player bot for telegram group voicechat. Managed by export gabbar..
+     ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇᴄʜᴀᴛ. Mᴀɴᴀɢᴇᴅ ʙʏ ʀ.ᴏɴᴇ ᴏᴘ..
 
-• All of my command can be used with My command handle : ( `/ . • $ ^ ~ + * ?` )
+• ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴍʏ ᴄᴀᴍᴍɴᴅ ʜᴀɴᴅʟᴇ : ( `/ . • $ ^ ~ + * ?` )
 
-• If you have any questions about me then dm to my [ᴏᴡɴᴇʀ](t.me/{me}) ...
+• ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{me}) ...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✚ Add me to your Group", url=f"https://t.me/{bu}?startgroup=true"
+                        "✚ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙᴀʙʏ", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "📨 Channel ", url=f"https://t.me/{CHANNEL_UPDATES}"
+                        "📨 ᴄʜᴀɴɴᴇʟ ", url=f"https://t.me/{CHANNEL_UPDATES}"
                     ),
                     InlineKeyboardButton(
-                        "📨 Support ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📨 sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                   ],[
                     InlineKeyboardButton(
-                        "👤 Bot Owner ", url=f"https://t.me/{me}"
+                        "👤 ᴍʏ ʙᴀʙʏ ", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "👨‍💻 Developer ", url=f"https://t.me/export_gabbar"
+                        "👨‍💻 ᴄᴏᴅᴇ ᴏᴡɴᴇʀ ", url=f"https://t.me/R_ONE_HU"
                     ),
                   ],[
                     InlineKeyboardButton(
-                        "✅ Inline ", switch_inline_query_current_chat=""
+                        "✅ ɪɴʟɪɴᴇ ", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "💡 Git repo", url="https://github.com/MrProgrammer72/GJ516VCBOT"
+                        "💡 ғɪʟʟᴇɴɢs", url="https://t.me/FunTwenty_4"
                     )]
             ]
        ),
